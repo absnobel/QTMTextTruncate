@@ -1,0 +1,45 @@
+{
+  "name": "ASNOBEL-QUOTETOME",
+  "description": "A QUOTE TO ME CHALLENGE",
+  "version": "1.0.0",
+  "author": "Aaron Snobel <aaronsnobel@aaronsnobel.ca>",
+  "license": "MIT",
+  "private": true,
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --content-base dist",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@types/react-dom": "^16.0.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.4",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
